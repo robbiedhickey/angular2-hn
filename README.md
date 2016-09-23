@@ -1,5 +1,7 @@
 # Angular2Hn
 
+> Thanks to @hdjirdeh for his excellent blog post http://houssein.me/angular2-hacker-news
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.15.
 
 ## Development server

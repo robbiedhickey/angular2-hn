@@ -16,14 +16,13 @@ export class HackerNewsAPIService {
       .map(response => response.json());
   }
 
-  fetchComments(id: number) : Observable<any> {
+  fetchComments(id: number): Observable<any> {
     return this.http.get(`${this.baseUrl}/item/${id}`)
       .map(response => response.json());
   }
 
-  fetchUser(id: number) : Observable<any> {
-    console.log(id);
-    if(id){
+  fetchUser(id: number): Observable<any> {
+    if (id) {
       return this.http.get(`${this.baseUrl}/user/${id}`)
         .map(response => response.json());
     }

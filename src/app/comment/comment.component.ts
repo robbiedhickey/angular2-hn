@@ -7,9 +7,9 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CommentComponent implements OnInit {
   @Input() comment;
+  collapse: boolean;
 
   constructor() { }
-  collapse: boolean;
 
   ngOnInit() {
     this.collapse = false;

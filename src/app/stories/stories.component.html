@@ -5,7 +5,7 @@
   <div *ngIf="items">
     <ol start="{{ listStart }}">
       <li *ngFor="let item of items" class="post">
-        <item class="item-block" [item]="item"></item>
+        <app-item class="item-block" [item]="item"></app-item>
       </li>
     </ol>
     <div class="nav">
